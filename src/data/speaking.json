@@ -1,0 +1,10 @@
+[
+  {
+    "prompt": "Introduce yourself in English.",
+    "hint": "Say your name, age, and where you’re from."
+  },
+  {
+    "prompt": "Talk about your favorite food.",
+    "hint": "Describe what it is and why you like it."
+  }
+]

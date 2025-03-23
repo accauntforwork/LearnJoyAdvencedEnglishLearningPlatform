@@ -1,0 +1,32 @@
+[
+  {
+    "id": "text1",
+    "title": "The Cat on the Mat",
+    "text": "The cat ___ on the mat. It ___ a sunny day. The cat ___ to sleep.",
+    "blanks": [
+      { "index": 1, "correct": "sits" },
+      { "index": 2, "correct": "was" },
+      { "index": 3, "correct": "wanted" }
+    ]
+  },
+  {
+    "id": "text2",
+    "title": "A Day at School",
+    "text": "She ___ to school every day. The teacher ___ the lesson. Students ___ quietly.",
+    "blanks": [
+      { "index": 1, "correct": "goes" },
+      { "index": 2, "correct": "starts" },
+      { "index": 3, "correct": "listen" }
+    ]
+  },
+  {
+    "id": "text3",
+    "title": "The Rainy Day",
+    "text": "It ___ outside. People ___ umbrellas. The streets ___ wet.",
+    "blanks": [
+      { "index": 1, "correct": "rains" },
+      { "index": 2, "correct": "carry" },
+      { "index": 3, "correct": "become" }
+    ]
+  }
+]
