@@ -1,3 +1,4 @@
+// src/firebase.js
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import {
@@ -11,7 +12,6 @@ import {
   getDocs,
 } from "firebase/firestore";
 
-// 🔹 VITE muhitida `.env` dan to‘g‘ri ma’lumot olish
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
@@ -19,15 +19,13 @@ const firebaseConfig = {
   storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
   messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
   appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || undefined, // Analytics ixtiyoriy
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || undefined,
 };
 
-// 🔹 Firebase dasturini boshlash
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
 
-// 🔹 Foydalanuvchi progressini saqlash
 export const saveProgress = async (uid, section, score) => {
   if (!uid) return;
   try {
@@ -41,7 +39,6 @@ export const saveProgress = async (uid, section, score) => {
   }
 };
 
-// 🔹 Foydalanuvchi progressini olish
 export const getProgress = async (uid) => {
   if (!uid) return {};
   try {
@@ -54,7 +51,6 @@ export const getProgress = async (uid) => {
   }
 };
 
-// 🔹 Lug‘atga yangi so‘z qo‘shish
 export const addToVocabulary = async (uid, word, definition) => {
   if (!uid || !word || !definition) return;
   try {
@@ -68,5 +64,4 @@ export const addToVocabulary = async (uid, word, definition) => {
   }
 };
 
-// 🔹 Firestore’dan ma’lumot olish uchun eksportlar
 export { collection, query, where, getDocs };

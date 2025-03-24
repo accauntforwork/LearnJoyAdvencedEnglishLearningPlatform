@@ -1,0 +1,11 @@
+[
+  {
+    "id": "topic1",
+    "question": "Write an essay about my favorite season.",
+    "bulletPoints": [
+      "Which season do you like and why?",
+      "What is the weather like in this season?",
+      "What activities do you do in this season?"
+    ]
+  }
+]

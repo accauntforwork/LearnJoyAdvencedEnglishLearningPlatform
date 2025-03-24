@@ -17,6 +17,7 @@ import VocabularySection from "./components/VocabularySection";
 import ListeningSection from "./components/ListeningSection";
 import ReadingSection from "./components/ReadingSection";
 import SpeakingSection from "./components/SpeakingSection";
+import WritingSection from "./components/WritingSection";
 
 function App() {
   const [language, setLanguage] = useState("uz");
@@ -77,6 +78,16 @@ function App() {
               element={
                 user ? (
                   <Dashboard language={language} user={user} />
+                ) : (
+                  <Navigate to="/login" />
+                )
+              }
+            />
+            <Route
+              path="/writing"
+              element={
+                user ? (
+                  <WritingSection language={language} user={user} />
                 ) : (
                   <Navigate to="/login" />
                 )
