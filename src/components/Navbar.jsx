@@ -95,9 +95,9 @@ function Navbar({ language, toggleLanguage, user, handleLogout }) {
             <Link to="/speaking" className="p-2 hover:bg-blue-500">
               {language === "uz" ? "Nutqiy" : "Speaking"}
             </Link>
-            <Link to="/grammar" className="p-2 hover:bg-blue-500">
+            {/* <Link to="/grammar" className="p-2 hover:bg-blue-500">
               {language === "uz" ? "Grammatika" : "Grammar"}
-            </Link>
+            </Link> */}
             <Link to="/vocabulary" className="p-2 hover:bg-blue-500">
               {language === "uz" ? "Lug‘at" : "Vocabulary"}
             </Link>

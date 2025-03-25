@@ -12,12 +12,13 @@ import Navbar from "./components/Navbar";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import Dashboard from "./components/Dashboard";
-import GrammarSection from "./components/GrammarSection";
+// import GrammarSection from "./components/GrammarSection";
 import VocabularySection from "./components/VocabularySection";
 import ListeningSection from "./components/ListeningSection";
 import ReadingSection from "./components/ReadingSection";
 import SpeakingSection from "./components/SpeakingSection";
 import WritingSection from "./components/WritingSection";
+import NotFound from "./components/NotFound";
 
 function App() {
   const [language, setLanguage] = useState("uz");
@@ -93,7 +94,7 @@ function App() {
                 )
               }
             />
-            <Route
+            {/* <Route
               path="/grammar"
               element={
                 user ? (
@@ -102,7 +103,7 @@ function App() {
                   <Navigate to="/login" />
                 )
               }
-            />
+            /> */}
             <Route
               path="/vocabulary"
               element={
@@ -143,6 +144,8 @@ function App() {
                 )
               }
             />
+            {/* 404 Page Not Found */}
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>
