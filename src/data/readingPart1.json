@@ -1,32 +1,60 @@
 [
   {
-    "id": "text1",
-    "title": "The Cat on the Mat",
-    "text": "The cat ___ on the mat. It ___ a sunny day. The cat ___ to sleep.",
-    "blanks": [
-      { "index": 1, "correct": "sits" },
-      { "index": 2, "correct": "was" },
-      { "index": 3, "correct": "wanted" }
-    ]
-  },
+  "texts": [
+    {
+      "id": "text1",
+      "title": "Colour Me Healthy",
+      "text": "Different Colours can affect us in many different ways; that’s according to Verity Allen. In her new series ‘Colour me Healthy’, Verity looks at the ways that 1 __________ can influence how hard we work and the choices we make. They can even change our emotions and even influence how healthy we are. ‘Have you ever noticed how people always use the same colours for the same things?’ says Verity. ‘Our toothpaste is always white or blue or maybe red. It’s never green. Why not? For some reason we think that blue and white is clean, while we think of green products as for businesses. We respect a company which writes its name in blue or black, but we don’t respect one that uses pink or orange. People being a bit disgusting. It’s the 2 __________ who design new 3 __________ can use these ideas to influence what we buy.’\n\nDuring this four-part 4 __________ Verity studies eight different colours, two colours in each programme. She meets people who work in all aspects of the colour industry, from people who 5 __________ food packets, to people who name the colours of lipsticks.\n\nSome of the people she meets clearly have very little scientific knowledge to support their 6 __________, such as the American ‘Colour Doctor’ who believes that serious diseases can be cured by the use of coloured lights. However, she also interviews real scientists who are studying the effects of green and red lights on mice, with some surprising results.\n\nOverall, it’s an interesting show, and anyone who watches it will probably find out something new. But because Verity goes out of her way to be polite to everyone she meets on the series, it’s up to the viewers to make their own decisions about how much they should believe.",
+      "blanks": [
+        { "index": 1, "correct": "colours" },
+        { "index": 2, "correct": "same" },
+        { "index": 3, "correct": "products" },
+        { "index": 4, "correct": "series" },
+        { "index": 5, "correct": "design" },
+        { "index": 6, "correct": "ideas" }
+      ]
+    },
+    {
+      "id": "text2",
+      "title": "Cannabis and Cancer",
+      "text": "For thousands of years people have used cannabis for recreational, ritualistic and medicinal purposes. In the modern era, the latter property excites a lot of people, and there is no shortage of wild claims about the supposed medical benefits of the plant. Of all the 1 ___, perhaps the most bold is the assertion that cannabis can cure cancer. Astounding testimonials about cannabis and its derived products shrinking tumours or curing terminal cases are easy to find on the internet. But alluring as these stories are, they tend to be based on misunderstanding, wishful thinking or outright falsehood. Let’s start by asking what the 2 ___ efficacy might be. Contrary to what most people believe, medical uses of cannabis have been widely studied. A 2017 review by the National Academy of Science looked at over 10,000 studies. They found evidence for some applications of cannabis, including managing chronic pain and spasms associated with multiple sclerosis. There was also good 3 ___ that tetrahydrocannabinol (THC), the main psychoactive ingredient in cannabis, can reduce the nausea caused by chemotherapy. Indeed, a synthetic form of THC, called dronabinol, has been prescribed for just this use for decades. But, crucially, there is zero evidence that cannabis has any curative or even helpful impact on 4 ___ despite enthusiastic claims to the contrary. Why then is there such a gulf between public perception and scientific evidence? Part of this is 5 ___. For example, an often aired claim is that high-dose THC kills cancer cells in a petri dish. This is true, but not very meaningful. Killing cells in a dish is extremely easy; you can do so with anything from heat to bleach. But effective anti-cancer agents must be able to selectively kill cancer 6 ___ in the human body while sparing healthy ones. The reality is that cannabis simply cannot do this.",
+      "blanks": [
+        { "index": 1, "correct": "claims" },
+        { "index": 2, "correct": "medical" },
+        { "index": 3, "correct": "evidence" },
+        { "index": 4, "correct": "cancer" },
+        { "index": 5, "correct": "misunderstanding" },
+        { "index": 6, "correct": "cells" }
+      ]
+    },
+    {
+      "id": "text3",
+      "title": "Swiss Cheese",
+      "text": "Switzerland is a country famous for producing cheese. However, it is now importing more 1 ___ than it exports for the first time. The reason is that Switzerland opened up its milk market. Other countries can sell 2 ___ in Switzerland. This means it is difficult for Swiss farmers to compete with cheaper, imported milk. Many dairy farmers have given up because they cannot make a profit. This has decreased the quantity of cheese made in 3 ___. The Swiss Dairy Association said the country can now only make enough cheese for its own population.\n\nSwiss cheese is well known for its high quality. It is often on the menu of restaurants worldwide. However, 4 ___ and supermarkets are replacing Swiss cheeses with those from other countries. Even though Switzerland is exporting less cheese, the 5 ___ are still big cheese eaters. They are eating more cheese than ever. Swiss people ate an average of 22.9 kg per person last year. A dairy farmer was sad to see dairy farms disappearing. She said: \"Cheese is a big part of life in Switzerland. We need our 6 ___ and cheese.\"",
+      "blanks": [
+        { "index": 1, "correct": "cheese" },
+        { "index": 2, "correct": "milk" },
+        { "index": 3, "correct": "Switzerland" },
+        { "index": 4, "correct": "restaurants" },
+        { "index": 5, "correct": "Swiss" },
+        { "index": 6, "correct": "farmers" }
+      ]
+    }
+  ]
+}
+
   {
-    "id": "text2",
-    "title": "A Day at School",
-    "text": "She ___ to school every day. The teacher ___ the lesson. Students ___ quietly.",
+    "id": "text4",
+    "title": "Mosquitoes and Smells",
+    "text": "Mosquitoes like some people more than others. Scientists in the USA found that different body smells attract (1) ___. This includes our natural body odour and smells from soaps. Some of these smells could reduce the number of bites we get in the summer. The researchers said mosquitoes preferred soap with a flowery smell. More than 60 per cent of the (2) ___ coming from our body come from soap. Changing the soap we use could stop us being attractive to mosquitoes.\n\n(3) ___ with no smell could make us less tasty to mosquitoes. The (4) ___ tested four popular brands of soap on mosquitoes. They also tested the smell of people when they did not wash themselves. The researchers put the soapy and unwashed smells in two different cups in a cage full of mosquitoes. The insects preferred the soapy smells. Mosquitoes are like humans because they like (5) ___ and fruity smells. One researcher said coconut-scented soap is best to keep mosquitoes away. Mosquitoes are the world's deadliest creatures. The diseases they carry kill 725,000 (6) ___ a year.",
     "blanks": [
-      { "index": 1, "correct": "goes" },
-      { "index": 2, "correct": "starts" },
-      { "index": 3, "correct": "listen" }
-    ]
-  },
-  {
-    "id": "text3",
-    "title": "The Rainy Day",
-    "text": "It ___ outside. People ___ umbrellas. The streets ___ wet.",
-    "blanks": [
-      { "index": 1, "correct": "rains" },
-      { "index": 2, "correct": "carry" },
-      { "index": 3, "correct": "become" }
+      { "index": 1, "correct": "mosquitoes" },
+      { "index": 2, "correct": "smells" },
+      { "index": 3, "correct": "Soap" },
+      { "index": 4, "correct": "researchers" },
+      { "index": 5, "correct": "flower" },
+      { "index": 6, "correct": "people" }
     ]
   }
+
 ]
