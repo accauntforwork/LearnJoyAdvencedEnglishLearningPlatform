@@ -1,32 +1,28 @@
 [
   {
     "id": "text1",
-    "title": "The Cat on the Mat",
-    "text": "The cat ___ on the mat. It ___ a sunny day. The cat ___ to sleep.",
+    "title": "TikTok",
+    "text": "TikTok users will soon be able to upload 10-minute-long videos. The video platform launched worldwide in 2018 allowing users to create one-minute (1)_________. That length tripled in July 2021 to three minutes. TikTok says an extension to 10 (2)_________ minutes will allow people to be more creative. A company spokesperson said: \"We're always thinking about new ways to…enrich the TikTok experience.\" She added: \"We introduced longer videos, giving our community more time to create and be entertained. Today, we're excited to start rolling out the ability to (3)________ videos that are up to 10 minutes, which we hope would unleash even more creative possibilities for our creators around the world.\" Social media consultant Matt Navarra said the new time limit means TikTok will be a bigger rival to YouTube. However, TikTok could lose (4)_________ who prefer shorter videos. They could switch to other social media platforms, like Instagram's Reels, Snapchat's Spotlight, or YouTube's Shorts. Mr Navarra says (5)_________ videos are more popular with younger people, who are used to \"whizzing\" through videos \"at speed\". He says longer videos are more suited to older (6)__________. Navarra believes the longer videos may increase TikTok's profits as they are \"easier to monetize and keep people on-platform longer\". Short, bite-sized videos are one of the reasons for TikTok's huge popularity. It has more than one billion monthly active users.",
     "blanks": [
-      { "index": 1, "correct": "sits" },
-      { "index": 2, "correct": "was" },
-      { "index": 3, "correct": "wanted" }
+      { "index": 1, "correct": "videos" },
+      { "index": 2, "correct": "minutes" },
+      { "index": 2, "correct": "upload" },
+      { "index": 4, "correct": "users" },
+      { "index": 5, "correct": "shorter" },
+      { "index": 6, "correct": "people" }
     ]
   },
   {
     "id": "text2",
-    "title": "A Day at School",
-    "text": "She ___ to school every day. The teacher ___ the lesson. Students ___ quietly.",
+    "title": "Global Elections 2024",
+    "text": "The year 2024 will be the biggest ever year for voting. National elections will take place in around 64 countries, as well as in the European Union. An estimated two billion people – almost half the global population – could (1)_________ at some time this year. The results of these polls will bring big changes for the future of many (2)___________. Voters in the world's four largest electoral blocs – the EU, India, Indonesia and the USA – will be casting their votes. One of the first contests will be in Taiwan on January the 13th. For much of the (3)___________, eyes will be focused on events in the US. In November, there will be a repeat of the 2020 election if Donald Trump runs for President again. Journalists are worried about how free and fair many (4)___________ will be. The website Bloomberg.com has already posed a question that is on the lips of many people. It asked: \"Will 2024 be the year fake news destroys democracy?\" Bloomberg said bad actors will use artificial intelligence to change the way people vote via fake (5)___________ articles. It said there will be \"a storm of disinformation as well as digital manipulation unlike anything the world has ever seen\". It added that (6)___________ has already begun to spread, and that this \"gets harder to spot as fake with every passing month\". Fact checkers will have to work extra hard to reduce the number of AI-based posts on social media.",
     "blanks": [
-      { "index": 1, "correct": "goes" },
-      { "index": 2, "correct": "starts" },
-      { "index": 3, "correct": "listen" }
-    ]
-  },
-  {
-    "id": "text3",
-    "title": "The Rainy Day",
-    "text": "It ___ outside. People ___ umbrellas. The streets ___ wet.",
-    "blanks": [
-      { "index": 1, "correct": "rains" },
-      { "index": 2, "correct": "carry" },
-      { "index": 3, "correct": "become" }
+      { "index": 1, "correct": "vote" },
+      { "index": 2, "correct": "people" },
+      { "index": 3, "correct": "year" },
+      { "index": 4, "correct": "elections" },
+      { "index": 5, "correct": "news" },
+      { "index": 6, "correct": "disinformation" }
     ]
   }
 ]

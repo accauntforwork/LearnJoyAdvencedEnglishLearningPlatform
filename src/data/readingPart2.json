@@ -1,0 +1,46 @@
+{
+  "texts": [
+    {
+      "id": 7,
+      "title": "Lifeventure Mini Travel Document Wallet",
+      "description": "This is a waterproof wallet, which uses anti-RFID (radio frequency identification) material so your financial details will be safe. It is black with smart sky-blue finishing touches and has a small internal compartment, a smartphone pocket and an external pocket. It can fit two passports.",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 8,
+      "title": "Cath Kidston Breton Stripe",
+      "description": "A wallet so slim it could easily pass for a small notebook. The inside compartment labels identifying each separate section all have silver lettering on them. The wallet has a special coating which makes it easy to wipe anything like sand off.",
+      "correctAnswer": "J"
+    },
+    {
+      "id": 9,
+      "title": "Ted Baker Voyager’s Travel Wallet",
+      "description": "This wallet comes in smooth black leather, and is no bigger than a passport, but roomy enough for any insurance documents or flight tickets. A small navy-blue pen is supplied inside.",
+      "correctAnswer": "A"
+    }
+  ],
+  "statements": [
+    {
+      "id": "A",
+      "text": "This wallet will suit people who prefer natural materials."
+    },
+    {
+      "id": "B",
+      "text": "Items in this suitcase will not be affected if it gets wet."
+    },
+    {
+      "id": "C",
+      "text": "This wallet would suit someone who needs to keep several passports together."
+    },
+    {
+      "id": "D",
+      "text": "This wallet has been specially made to prevent people detecting the numbers on any bank cards, etc. inside it."
+    },
+    { "id": "E", "text": "This wallet is ideal for those who travel light." },
+    { "id": "F", "text": "This wallet comes with a writing tool." },
+    { "id": "G", "text": "This wallet is designed for outdoor activities." },
+    { "id": "H", "text": "This wallet has a unique color combination." },
+    { "id": "I", "text": "This wallet is suitable for large families." },
+    { "id": "J", "text": "This wallet can be cleaned easily." }
+  ]
+}

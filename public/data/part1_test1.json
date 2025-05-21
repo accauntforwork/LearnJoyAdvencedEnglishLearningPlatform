@@ -1,0 +1,61 @@
+{
+  "audio": "/assets/audio/part1_test1.mp3",
+  "questions": [
+    {
+      "question": "1.",
+      "options": [
+        "I think that’s too late.",
+        "OK, I like that place.",
+        "Sure, when?"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "2.",
+      "options": ["I’m British.", "I am Dani.", "I’m fine."],
+      "correctIndex": 1
+    },
+    {
+      "question": "3.",
+      "options": ["I like it, thanks.", "No problem.", "So far, so good."],
+      "correctIndex": 2
+    },
+    {
+      "question": "4.",
+      "options": [
+        "There’s a few mistakes.",
+        "There’s John.",
+        "It’s nothing, really."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "5.",
+      "options": [
+        "Sorry, I don’t have enough money.",
+        "Can you get me some too?",
+        "It’s alright, thanks."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "6.",
+      "options": ["Ok, here it is.", "50 dollars.", "How about this one?"],
+      "correctIndex": 0
+    },
+    {
+      "question": "7.",
+      "options": ["Yeah I know.", "About 2 weeks.", "July 5th."],
+      "correctIndex": 1
+    },
+    {
+      "question": "8.",
+      "options": [
+        "Can you get me some staplers too?",
+        "Where are you going?",
+        "When will you arrive?"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -19,6 +19,7 @@ import ReadingSection from "./components/ReadingSection";
 import SpeakingSection from "./components/SpeakingSection";
 import WritingSection from "./components/WritingSection";
 import NotFound from "./components/NotFound";
+import Chatbot from "./components/Chatbot";
 
 function App() {
   const [language, setLanguage] = useState("uz");
@@ -113,6 +114,10 @@ function App() {
                   <Navigate to="/login" />
                 )
               }
+            />
+            <Route
+              path="/chatbot"
+              element={user ? <Chatbot /> : <Navigate to="/login" />}
             />
             <Route
               path="/listening"
